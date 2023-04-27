@@ -2,6 +2,8 @@
 import SectionSubject from "../components/SectionSubject.vue";
 import ContentMain from "../components/ContentMain.vue";
 import Blue_Banner from "../components/Blue_Banner.vue";
+import Learning from "../components/Learning.vue";
+
 
 
     export default {
@@ -10,7 +12,8 @@ import Blue_Banner from "../components/Blue_Banner.vue";
         components:{
             SectionSubject,
             ContentMain,
-            Blue_Banner
+            Blue_Banner,
+            Learning
         }
     }
 </script>
@@ -19,6 +22,7 @@ import Blue_Banner from "../components/Blue_Banner.vue";
     <SectionSubject/>
     <ContentMain/>
     <Blue_Banner/>
+    <Learning/>
 </template>
 
 
