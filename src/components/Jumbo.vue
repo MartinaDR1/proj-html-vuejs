@@ -44,7 +44,7 @@ export default {
             <button type="submit" class="text-uppercase text-light fw-semibold border-0 my-4">register now</button>
         </div>
 
-        <div class="carousel-indicators">
+        <div class="carousel-indicators pb-2">
           <button class="border-0 bg-transparent" v-for="(image, index) in slider" :key="index" :class="{ active: activeImage === index }"><i class="fa-solid fa-circle"></i></button>
         </div>
     </div>
