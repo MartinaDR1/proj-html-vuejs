@@ -47,11 +47,11 @@ export default {
 
         <div class="item d-flex py-3">
             <ul v-for="item in itemNav">
-                <li><a href="" class="text-uppercase" >{{ item.title }}</a></li>
+                <li><a href="" class="text-uppercase text-light" >{{ item.title }}</a></li>
             </ul>
         </div>
 
-        <div class="icon py-3">
+        <div class="icon py-3 text-light">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-bag-shopping"></i>
             <i class="fa-solid fa-bars"></i>
@@ -76,12 +76,12 @@ nav{
         a{
             text-decoration: none;
             font-size: 12px;
-            color: $txt-dark_light
+    
         }
     }   
     .icon i{
         padding-right: 1rem;
-        color: $txt-dark_light
+
     }
 }
 
