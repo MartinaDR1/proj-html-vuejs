@@ -1,13 +1,16 @@
 <script>
 import SectionSubject from "../components/SectionSubject.vue";
 import ContentMain from "../components/ContentMain.vue";
+import Blue_Banner from "../components/Blue_Banner.vue";
+
 
     export default {
         name:'AppMain',
 
         components:{
             SectionSubject,
-            ContentMain
+            ContentMain,
+            Blue_Banner
         }
     }
 </script>
@@ -15,6 +18,7 @@ import ContentMain from "../components/ContentMain.vue";
 <template>
     <SectionSubject/>
     <ContentMain/>
+    <Blue_Banner/>
 </template>
 
 

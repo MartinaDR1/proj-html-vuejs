@@ -84,8 +84,8 @@ export default {
     }
 
     button.active {
-  color: white;
-}
+        color: white;
+    }
 }
 </style>
 
