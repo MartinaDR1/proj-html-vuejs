@@ -62,6 +62,12 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/variables'as *;
+
+img:hover{
+    border-bottom: 1px solid yellow;
+    border-left-width:medium;
+    transition: 3s;
+}
 nav{
     position: absolute;
     top: 1rem;

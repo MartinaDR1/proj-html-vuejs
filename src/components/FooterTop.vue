@@ -55,5 +55,9 @@ ul{
         text-decoration: none;
         color: $txt-dark-light;
     }
+
+    a:hover{
+        color: $txt-blue_light;
+    }
 }
 </style>

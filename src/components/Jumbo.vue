@@ -45,7 +45,7 @@ export default {
         </div>
 
         <div class="carousel-indicators pb-2">
-          <button class="border-0 bg-transparent" v-for="(image, index) in slider" :key="index" :class="{ active: activeImage === index }"><i class="fa-solid fa-circle"></i></button>
+          <button class="border-0 bg-transparent grey-light pb-2" v-for="(image, index) in slider" :key="index" :class="{ active: activeImage === index }"><i class="fa-solid fa-circle"></i></button>
         </div>
     </div>
 </template>

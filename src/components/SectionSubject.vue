@@ -56,4 +56,8 @@
     margin-right: 1.5rem;
     text-align: center;
 }
+
+.box:hover{
+    transform: scale(1.2);
+}
 </style>
