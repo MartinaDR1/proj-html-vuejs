@@ -1,10 +1,17 @@
 <script>
+import Button from "./Button.vue";
+
 export default {
-    name: 'Learning'
+    name: 'Learning',
+
+    components:{
+        Button
+    }
 }
 </script>
 
 <template>
+    <Button/>
     <div class="container">
         <div class="row my-5">
             <div class="col-3 py-1">
@@ -17,11 +24,14 @@ export default {
                     <a class="list-group-item list-group-item-action" href="#list-item-4">Knowledge Transfer</a>
                 </div>
             </div>
+
             <div class="col-9 list px-5 py-2">
                 <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
                     class="scrollspy-example" tabindex="0">
                     <h2 id="list-item-1" class="py-2">Learning Possibilities</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam aliquid, eos animi, ipsa quis pariatur beatae qui cum perferendis nihil at necessitatibus alias architecto hic possimus accusamus blanditiis libero omnis distinctio quas recusandae sed obcaecati cumque! Maiores ducimus provident similique?</p>
+                    
+                    
 
                     <ul class="py-5">
                         <li>
@@ -42,6 +52,7 @@ export default {
                         </li>
                     </ul>
                 </div>
+            
                 <div class="image">
                     <img src="../assets/img/h12-tabs-icon-1.png" width="100px" alt="">
                 </div>

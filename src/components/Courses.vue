@@ -1,4 +1,6 @@
 <script>
+import Button from "./Button.vue";
+
 export default {
     name: 'Courses',
 
@@ -100,6 +102,9 @@ export default {
             ],
 
         }
+    }, 
+    components:{
+        Button
     }
 
 }
@@ -114,6 +119,8 @@ export default {
                 asperiores consequuntur ab nam dolor deserunt suscipit sequi.
             </p>
         </div>
+
+        <Button/>
 
         <div class="container d-flex">
             <div class="card border" v-for="course in cards">

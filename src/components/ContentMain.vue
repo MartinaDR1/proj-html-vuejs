@@ -1,31 +1,11 @@
 <script>
+import Button from "./Button.vue";
 export default {
     name: 'ContentMain',
 
-
-    data() {
-        return {
-            showButton: false
-        };
-    },
-    methods: {
-        scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-    },
-    mounted() {
-        window.addEventListener("scroll", () => {
-            if (window.pageYOffset > 100) {
-                this.showButton = true;
-            } else {
-                this.showButton = false;
-            }
-        });
+    components:{
+        Button
     }
-
 }
 </script>
 
@@ -39,7 +19,8 @@ export default {
 
     <div class="banner">
         <img src="../assets/img/h5-img-1.jpg" width="800px" alt="">
-        <button @click="scrollToTop" class="scroll"><i class="fa-solid fa-angle-up"></i></button>
+
+        <Button/>
     </div>
 
 
@@ -89,14 +70,6 @@ a,
 .banner {
     text-align: center;
     position: relative;
-}
-
-.scroll{
-    background-color: $bg-blue;
-    border: 0;
-    position: absolute;
-    right: 0;
-    top: 5rem;
 }
 
 

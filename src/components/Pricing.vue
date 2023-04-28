@@ -1,6 +1,12 @@
 <script>
+import Button from "./Button.vue";
+
 export default {
-    name: 'Pricing'
+    name: 'Pricing',
+
+    components:{
+        Button
+    }
 }
 </script>
 
@@ -9,6 +15,8 @@ export default {
         <h2>Pricing Plans</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates rerum at labore? Expedita, illum molestias?
         </p>
+
+        <Button/>
 
         <table class="table table-bordered">
             <thead>
