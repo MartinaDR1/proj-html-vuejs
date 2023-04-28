@@ -116,7 +116,7 @@ export default {
         </div>
 
         <div class="container d-flex">
-            <div class="card border" v-for="course in cards" :key="cardIndex">
+            <div class="card border" v-for="course in cards">
                 <img  :src="course.image" alt="">
 
                 <div class="header d-flex justify-content-between p-2">
@@ -157,7 +157,6 @@ export default {
 
 .courses {
     background-image: url(../assets/img/page-background-img.png);
-    max-height: 600px;
     padding: 1rem 0;
     border-top: 1px solid  $txt-dark_light;
     border-bottom: 1px solid  $txt-dark_light;

@@ -4,6 +4,7 @@ import ContentMain from "../components/ContentMain.vue";
 import Blue_Banner from "../components/Blue_Banner.vue";
 import Learning from "../components/Learning.vue";
 import Courses from "../components/Courses.vue";
+import Pricing from "../components/Pricing.vue"
 
 
     export default {
@@ -14,7 +15,8 @@ import Courses from "../components/Courses.vue";
             ContentMain,
             Blue_Banner,
             Learning,
-            Courses
+            Courses,
+            Pricing
         }
     }
 </script>
@@ -25,6 +27,7 @@ import Courses from "../components/Courses.vue";
     <Blue_Banner/>
     <Learning/>
     <Courses/>
+    <Pricing/>
 </template>
 
 
